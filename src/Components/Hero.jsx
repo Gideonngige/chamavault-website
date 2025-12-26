@@ -1,5 +1,7 @@
 import { Download } from "lucide-react"
 import videoSrc from "../assets/hero-video.mp4" // place your video in public/assets or import it
+import { NavLink } from "react-router-dom";
+import playstoreBadge from "../assets/playstore.webp" 
 
 export default function Hero() {
   return (
@@ -37,13 +39,18 @@ export default function Hero() {
         </p>
 
         {/* CTA Button */}
-        <a
-          href="#"
-          className="inline-flex items-center justify-center gap-2 bg-white text-yellow-600 px-8 py-3 rounded-lg font-semibold hover:bg-gray-100 transition"
-        >
-          <Download size={20} />
-          Get it on Play Store
-        </a>
+        <NavLink
+  to="https://play.google.com/store/apps/details?id=dev.expo.Chamavault"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="inline-flex items-center justify-center hover:scale-105 transition"
+>
+  <img
+    src={playstoreBadge}
+    alt="Get it on Google Play"
+    className="h-20 md:h-24 lg:h-28"
+  />
+</NavLink>
 
         {/* Optional text below */}
         <p className="mt-6 text-sm text-blue-200">

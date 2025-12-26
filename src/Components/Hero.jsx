@@ -3,7 +3,7 @@ import videoSrc from "../assets/hero-video.mp4" // place your video in public/as
 
 export default function Hero() {
   return (
-    <section className="relative h-screen flex items-center justify-center text-center text-white">
+    <section id="home" className="relative h-screen flex items-center justify-center text-center text-white">
       
       {/* Background Video */}
       <video

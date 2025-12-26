@@ -18,7 +18,7 @@ export default function Team() {
   ]
 
   return (
-    <section className="py-20 bg-gray-50">
+    <section id="team" className="py-20 bg-gray-50">
       <div className="max-w-7xl mx-auto px-6 text-center">
         <h2 className="text-3xl font-bold mb-12">Our Team</h2>
 

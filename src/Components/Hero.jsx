@@ -1,7 +1,7 @@
 import { Download } from "lucide-react"
 import videoSrc from "../assets/hero-video.mp4" // place your video in public/assets or import it
 import { NavLink } from "react-router-dom";
-import playstoreBadge from "../assets/playstore.webp" 
+import playstoreBadge from "../assets/playstore.png" 
 
 export default function Hero() {
   return (
@@ -23,7 +23,7 @@ export default function Hero() {
       {/* Content */}
       <div className="relative z-10 max-w-3xl px-6">
         {/* App Name */}
-        <h1 className="text-5xl md:text-6xl font-extrabold mb-4">
+        <h1 className="text-5xl md:text-6xl font-extrabold mb-4 mt-10">
           ChamaVault
         </h1>
 
@@ -48,7 +48,7 @@ export default function Hero() {
   <img
     src={playstoreBadge}
     alt="Get it on Google Play"
-    className="h-20 md:h-24 lg:h-28"
+    className="h-16 md:h-20 lg:h-20"
   />
 </NavLink>
 

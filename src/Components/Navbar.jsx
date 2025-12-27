@@ -23,7 +23,7 @@ export default function Navbar() {
           <li><a href="#home" className="hover:text-gray-200">Home</a></li>
           <li><a href="#why" className="hover:text-gray-200">Why ChamaVault</a></li>
           <li><a href="#how" className="hover:text-gray-200">How It Works</a></li>
-          <li><a href="#team" className="hover:text-gray-200">Our Team</a></li>
+          {/* <li><a href="#team" className="hover:text-gray-200">Our Team</a></li> */}
           <li><a href="#contact" className="hover:text-gray-200">Contact</a></li>
         </ul>
 
